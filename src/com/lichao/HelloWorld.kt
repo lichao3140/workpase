@@ -11,10 +11,10 @@ val 工资 = 500
 var money = 100
 
 fun main(args: Array<String>) {
-    println("常量：$PI")
-    println("常量：$工资")
+    println("常量：${PI}")
+    println("常量：${工资}")
     money = money * 5;
-    println("变量：$money")
-    
+    println("变量：${money}")
+
 }
 
